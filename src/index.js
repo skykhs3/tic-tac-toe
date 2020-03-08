@@ -141,7 +141,7 @@ class Game extends React.Component {
           isEnd={winner} a={abc[0]} b={abc[1]} c={abc[2]}/>
         </div>
         <div className="game-info">
-          <div> <u>{status}</u></div>
+          <div>{status}</div>
           <ol>{moves}</ol>
         </div>
       </div>
